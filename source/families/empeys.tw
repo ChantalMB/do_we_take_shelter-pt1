@@ -2,7 +2,9 @@
 
 <<nobr>>
 
-<p class="fade-text">Based on the information you have, answer the following questions:</p>
+<p class="fade-text">Rita Maloney: You are the moderator for your household. Open your household locker in Brightspace so that you can guide the household in its initial discussion of the information you have about the war with Germany.</p>
+
+<p class="fade-text">Thomas, Hilda, Rita, Elaine, and Emma: Together, you need to answer the following questions:</p>
 
 <<timed 2s t8n>>
 <ul>
@@ -22,7 +24,7 @@
 <p>What do you do next?</p>
 
 <<next 2s>>
-<p>Use the ACT UP handout to evaluate the information that you have.</p>
+<p>Use the criteria of authority, currency, and bias to evaluate the information that you currently have. Use the Warden’s Report Form/War Report Form to record your findings.</p>
 
 <<next 2s>>
 <p>Now, share your evaluation with the other households [[after your kitchen table discussion.|LunchtimeReports]]</p>
@@ -34,10 +36,12 @@
 <<nobr>>
 <<audio "streetcar-station" volume 0 fadeoverto 7 0.55>>
 
-<p class="fade-text">Evaluate the new information that you have to build your understanding of the impact and implications of the most recent bombings.</p>
+<p class="fade-text">Rita Maloney: You are the moderator for your household. Open your household locker in Brightspace so that you can guide the household in its initial discussion of the information you have about the war with Germany.</p>
+
+<p class="fade-text">Thomas, Hilda, Rita, Elaine, and Emma: continue to build your understanding of the impact and implications of the most recent bombings. This time, use the household map to visualize some of the new information that you now have.</p>
 
 <<timed 3s t8n>>
-<p>You must determine the facts about what has just happened in your city:</p>
+<p>Remember, you are still trying to determine the facts that you have about what has just happened in your city:</p>
 
 <ul>
     <li>What do we now know?</li>
@@ -57,10 +61,10 @@
 <p>What do you do next?</p>
 
 <<next 2s>>
-<p>Use the ACT UP handout to evaluate the additional information you have.  </p>
+<p>Use the criteria of authority, currency, and bias to evaluate the additional information that you have now and use the map of the city that is in your household to visualize this information to better see what is happening. Use the Warden’s Report Form/War Report Form to record your findings.</p>
 
 <<next 2s>>
-<p>[[Share your evaluation with the other households.|Greenep]]</p>
+<p>Be ready to analyze and discuss and share with the other households what you know (and don’t know).</p>
 
 <</timed>>
 <</nobr>>

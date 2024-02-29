@@ -150,9 +150,9 @@ Select your household.
 <p>And everywhere, there is @@color:orange;fire, fire, fire.@@</p>
 
 <<next 7s>>
-<p>While each household may have these basic facts, they also have information that others may not have.</p>
+<p>While each household may have these basic facts, they each have information that others may not have.</p>
 
-<p>Those who have returned from work will give their eyewitness account of what they have seen and heard. Use this information to build a better understanding of the actual impact of the bombings and the implications of this new information for the ultimate decision.</p>
+<p>Now, those who have returned from work will all share the new information that they have with their household to try and build a better understanding of the actual impact of the bombings and the implications of this new information for your ultimate decision.</p>
 
 <<next 5s>>
 
@@ -163,7 +163,7 @@ Select your household.
 
 :: SelectHousehold2
 <<audio "fire" volume 0.75 fadeout>>
-<h1 class="fade-text" style="text-align:center;">Round 1</h1>
+<h1 class="fade-text" style="text-align:center;">Round 2</h1>
 Select your household.
 
 [[Gamemaster's Clock|Gamemaster2]]
