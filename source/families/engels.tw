@@ -67,31 +67,3 @@
 
 <</timed>>
 <</nobr>>
-
-:: Engels3
-<<nobr>>
-<<audio "shop-bell" volume 0.55 play>>
-
-<p class="fade-text">Evaluate the new information that you have.</p>
-
-<<timed 3s t8n>>
-<p>This information includes <a href="https://archive.org/details/camphutchinsonin1211hutc/mode/1up?view=theater" target="_blank">this copy of the December 20, 1940 issue of The Camp</a>, the official journal of internees at The Hutchison Camp which is an internment camp on the Isle of Wight.</p>
-
-<<next 2s>>
-Open this document: Evaluate the information on page 1 and the article //Science marches// on on page 3.
-
-<<next 2s>>
-<p>Use the ACT UP handout to evaluate the facts that you have gathered alongside any anecdotes, rumours, and propaganda that you now know.</p> 
-
-<<next 2s>>
-<p>In addition to the questions on the ACT UP handout, consider:</p>
-<ul>
-    <li>Timelines: can you create a chronology of events or not and compare it to the chronology of other raids?</li>
-    <li>Is there any information that you think you need to discard? Why?</li>
-</ul>
-
-<<next 3s>>
-<p>Now go and [[share this evaluation with the other households.|FinalDecisions]]</p>
-
-<</timed>>
-<</nobr>>
