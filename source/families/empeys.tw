@@ -4,16 +4,26 @@
 
 <p class="fade-text">Rita Maloney: You are the moderator for your household. Use the available sources to guide the discussion of the information you have about the war with Germany.</p>
 
-<p class="fade-text">Thomas, Hilda, Rita, Elaine, and Emma: Together, you need to answer the following questions:</p>
+<p class="fade-text">Household members: You need to answer the following questions:</p>
 
 <<timed 2s t8n>>
 <ul>
     <li>Will there be another bombardment and, if so, when?</li>
-    <li>Should we move back to the community air raid shelter or stay in our own homes another night?</li>
+    <li>Should we move back to the community air raid shelter or stay in your own homes another night?</li>
 </ul>
 
 <<next 2s>>
-<p>Assess the bias that this information might reflect. Identify any additional information you might need and be able to gather such as:</p>
+<p>To answer these questions, you must evalute the information you currently have about the war and determine if it is:
+<ul>
+    <li>current,which includes relevant</li>
+    <li>authoritative</li>
+    <li>truthful, which includes being accurate<li>
+</ul
+<<next 2s>>
+<p>Use the Warden's Report Form and the War Report Form to record your findings.<p>
+
+<<next 2s>>
+<p>Assess the bias or biases that this information might reflect. Identify any additional information you might need and gather such as:</p>
 <ul>
     <li>What is the Luftwaffe strategy for bombing English cities?</li>
     <li>How many British people have been injured or died so far during the war?</li>
@@ -24,10 +34,7 @@
 <p>What do you do next?</p>
 
 <<next 2s>>
-<p>Use the criteria of authority, currency, and bias to evaluate the information that you currently have. Use the Warden’s Report Form/War Report Form to record your findings.</p>
-
-<<next 2s>>
-<p>Now, share your evaluation with the other households [[after your kitchen table discussion.|LunchtimeReports]]</p>
+<p>Share your evaluation with the other households [[after your kitchen table discussion.|LunchtimeReports]]</p>
 
 <</timed>>
 <</nobr>>
@@ -38,10 +45,10 @@
 
 <p class="fade-text">Rita Maloney: You are the moderator for your household. Use the available sources to guide the discussion of the information you have about the war with Germany.</p>
 
-<p class="fade-text">Thomas, Hilda, Rita, Elaine, and Emma: continue to build your understanding of the impact and implications of the most recent bombings. This time, use the household map to visualize some of the new information that you now have.</p>
+<p class="fade-text">Houehold members: continue to build your understanding of the impact and implications of the most recent bombings. This time, use the household map to visualize some of the new information that you now have.</p>
 
 <<timed 3s t8n>>
-<p>Remember, you are still trying to determine the facts that you have about what has just happened in your city:</p>
+<p>Determine the facts that you have about what has just happened in your city:</p>
 
 <ul>
     <li>What do we now know?</li>
@@ -61,7 +68,9 @@
 <p>What do you do next?</p>
 
 <<next 2s>>
-<p>Use the criteria of authority, currency, and bias to evaluate the additional information that you have now and use the map of the city that is in your household to visualize this information to better see what is happening. Use the Warden’s Report Form/War Report Form to record your findings.</p>
+<p>Use the criteria of authority, currency, and bias to evaluate the additional information that you have. Use the Manchester city map to visualize this information to better see what is happening.<p>
+
+<p>Use the Warden’s Report Form/War Report Form to record your findings.</p>
 
 <<next 2s>>
 <p>Be ready to analyze and discuss and share with the other households what you know (and don’t know).</p>
