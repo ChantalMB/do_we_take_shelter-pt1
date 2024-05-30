@@ -1,9 +1,9 @@
 :: Engels1
 <<nobr>>
 
-<p class="fade-text">Richard Jones: You are the moderator for your household. Open your household locker in Brightspace so that you can guide the household in its initial discussion of the information you have about the war with Germany.</p>
+<p class="fade-text">Richard Jones: You are the moderator for your household. Use the available sources to guide the household in its initial discussion of the information you have about the war with Germany.</p>
 
-<p class="fade-text">Marion, Josef, Emma, Doreen, and Richard: Together, you need to answer the following questions:</p>
+<p class="fade-text">Household members: Together, you need to answer the following questions:</p>
 
 <<timed 2s t8n>>
 <ul>
@@ -12,7 +12,15 @@
 </ul>
 
 <<next 2s>>
-<p>Assess the bias that this information might reflect. Identify any additional information you might need and be able to gather such as:</p>
+<p>To answer these questions, evaluate the information you have and determine if it is:</p>
+<ul>
+    <li>current</li>
+    <li>authoritative</li>
+    <li>truthful, which includes being accurate</li>
+</ul>
+
+<<next 2s>>
+<p>You must also assess the bias that this information might reflect and identify any additional information you might need and be able to gather such as:</p>
 <ul>
     <li>What is the Luftwaffe strategy for bombing English cities?</li>
     <li>How many British people have been injured or died so far during the war?</li>
@@ -23,11 +31,7 @@
 <p>What do you do next?</p>
 
 <<next 2s>>
-<p>Use the criteria of authority, currency, and bias to evaluate the information that you currently have. Use the Warden’s Report Form/War Report Form to record your findings.</p>
-
-<<next 2s>>
-<p>Now, share your evaluation with the other households [[after your kitchen table discussion.|LunchtimeReports]]</p>
-
+<p>The game master will signal the end of Round 1. Share your evaluation with the other households [[after your kitchen table discussion.|LunchtimeReports]]</p>
 <</timed>>
 <</nobr>>
 
@@ -35,15 +39,18 @@
 <<nobr>>
 <<audio "bicycle-bell" play>>
 
-<p class="fade-text">Richard Jones: You are the moderator for your household. Open your household locker in Brightspace so that you can guide the household in its initial discussion of the information you have about the war with Germany.</p>
+<p class="fade-text">Richard Jones: You are the moderator for your household. You are the moderator for your household. Use the new sources your household has to guide the discussion.</p>
 
-<p class="fade-text">Marion, Josef, Emma, Doreen, and Richard: continue to build your understanding of the impact and implications of the most recent bombings. This time, use the household map to visualize some of the new information that you now have.</p>
+<p class="fade-text">Household members: continue to build your understanding of the impact and implications of the most recent bombings. This time, use the Manchester city map to visualize some of the new information that you now have.</p>
 
 <<timed 3s t8n>>
-<p>Remember, you are still trying to determine the facts that you have about what has just happened in your city:</p>
+<p>Evaluate the new information that you have to build your understanding of the impact and implications of the most recent bombings.</p>
+
+<<timed 3s t8n>>
+<p>Determine the facts that you have about what has just happened in your city:</p>
 
 <ul>
-    <li>What do we now know?</li>
+    <li>What do you now know?</li>
         <ul>
             <li>Where have the bombs fallen?</li>
             <li>How many people are injured or dead?</li>
@@ -60,10 +67,10 @@
 <p>What do you do next?</p>
 
 <<next 2s>>
-<p>Use the criteria of authority, currency, and bias to evaluate the additional information that you have now and use the map of the city that is in your household to visualize this information to better see what is happening. Use the Warden’s Report Form/War Report Form to record your findings.</p>
+<p>Use the criteria of authority, currency, truthfulness, and bias to evaluate the additional information that you have now and use the map of the city that is in your household to visualize this information to better see what is happening. Use the Warden’s Report Form/War Report Form to record your findings.</p>
 
 <<next 2s>>
-<p>Be ready to analyze and discuss and share with the other households what you know (and don’t know).</p>
+<p>The game master will signal the end of Round 2. Be ready to analyze and discuss and share with the other households what you know (and don’t know).</p>
 
 <</timed>>
 <</nobr>>
