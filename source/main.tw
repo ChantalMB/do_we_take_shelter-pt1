@@ -180,25 +180,18 @@ Select your household.
 :: ConclusionRounds1and2
 <<audio "game-theme" volume 0.75 fadeout>>
 <<nobr>>
-<p class="fade-text">You have background knowledge of the war and also know that:</p>
-<ul>
-    <<timed 3s t8n>>
-    <li>At 6:38 p.m. on Sunday, December 22, the air raid sirens rang out.</li>
-    <<next>>
-    <li>The German air force dropped their bombs in “waves and waves”, sometimes a dozen at a time.</li>
-    <<next>>
-    <li>The bombs targeted central Manchester, including Manchester Cathedral, only 2.5 kilometres south of your home.</li>
-    <<next>>
-    <li>You can smell smoke and the sky is lit up from the fires burning in the city.</li>
-    <<next>>
-    <li>The Manchester fire brigade is depleted because many men and trucks were sent to Liverpool the day before when the bombs fell on that city.</li>
-    <</timed>>
-</ul>
+<p class="fade-text">You have now finished Rounds 1 and 2.</p>
 
-<<timed 17s t8n>>
-<p>Ultimately, you must decide what to do over the next eight hours: assess the information that you already have and gather new information as best you can.</p>
+<<timed 2s t8n>>
+<p> You have gathered more information about what is happening in your city and you have evaluated this information for currency, authority, truthfulness and bias.</p>
 
-<p>The stakes are high. [[You want your family to be safe.|SelectHousehold1]]</p>
+<<next 2s>>
+<p> When we reconvene, you will be able to gather even more information.</p>
+
+<<next 2s>>
+<p>Ultimately, you must decide what to do when the blackout again takes effect: assess the information that you already have and gather new information as best you can.</p>
+
+<p>The stakes are high.</p>
 <</timed>>
 
 <</nobr>>
