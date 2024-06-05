@@ -98,7 +98,7 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://7BB31A4A-9E10-48D9-A1CD-448A7E567A59// --><tw-storydata name="Do we take shelter?" startnode="25" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="7BB31A4A-9E10-48D9-A1CD-448A7E567A59" zoom="1" format="SugarCube" format-version="2.36.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Courier+Prime');
+	<!-- UUID://7BB31A4A-9E10-48D9-A1CD-448A7E567A59// --><tw-storydata name="Do we take shelter?" startnode="20" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="7BB31A4A-9E10-48D9-A1CD-448A7E567A59" zoom="1" format="SugarCube" format-version="2.36.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Courier+Prime');
 
 html,
 body {
@@ -4474,7 +4474,7 @@ p&gt;To answer these questions, evaluate the information you have and determine 
 &lt;&lt;/timed&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="Community1" tags="" position="350,100" size="100,100">&lt;&lt;nobr&gt;&gt;
 
-&lt;p class=&quot;fade-text&quot;&gt;&#39;&#39;Dr. Garfield Williams:&#39;&#39; You are the moderator for your household and will guide the household in its initial discussion of the information you have about the war with Germany.&lt;/p&gt;
+&lt;p class=&quot;fade-text&quot;&gt;&#39;&#39;Dr. Garfield Williams:&#39;&#39; You are the moderator for the community members and will guide your group in its initial discussion of the information you have about the war with Germany.&lt;/p&gt;
 
 &lt;&lt;timed 3s t8n&gt;&gt;
 &lt;p&gt;Answer the following questions:&lt;/p&gt;
@@ -4485,13 +4485,13 @@ p&gt;To answer these questions, evaluate the information you have and determine 
 &lt;&lt;next 2s&gt;&gt;
 &lt;p&gt;To answer these questions, evaluate the information you currently have about the war and determine if it is:&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;Current (which includes relevancy)&lt;/li&gt;
+    &lt;li&gt;Current&lt;/li&gt;
     &lt;li&gt;Authoritative&lt;/li&gt;
-    &lt;li&gt;Truthful (which includes accuracy)&lt;/li&gt;
+    &lt;li&gt;Truthful, which includes being accurate&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;&lt;next 2s&gt;&gt;
-&lt;p&gt;Also, assess the bias that this information might reflect. Identify any additional information you might need and be able to gather such as:&lt;/p&gt;
+&lt;p&gt;ou must also assess the bias that this information might reflect and identify any additional information you might need and be able to gather such as:&lt;/p&gt;
 &lt;ul&gt;
     &lt;li&gt;What is the Luftwaffe strategy for bombing English cities?&lt;/li&gt;
     &lt;li&gt;How many British people have been injured or died so far during the war?&lt;/li&gt;
@@ -4502,29 +4502,6 @@ p&gt;To answer these questions, evaluate the information you have and determine 
 &lt;p&gt;What do you do next?&lt;/p&gt;
 
 &lt;&lt;next 2s&gt;&gt;
-&lt;p&gt;Use the ACT UP handout to evaluate the information that you have.&lt;/p&gt;
-
-&lt;&lt;next 2s&gt;&gt;
-&lt;&lt;set _seconds to 1500&gt;&gt;
-&lt;span id=&quot;countdown&quot;&gt;&lt;b&gt;Countdown&lt;/b&gt;&amp;nbsp;15:00 remaining!&lt;/span&gt;
-&lt;&lt;silently&gt;&gt;
-	&lt;&lt;repeat 1s&gt;&gt;
-		&lt;&lt;set _seconds to _seconds - 1&gt;&gt;
-		&lt;&lt;if _seconds gt 0&gt;&gt;
-            &lt;&lt;set _min to Math.trunc(_seconds / 60) &gt;&gt;
-            &lt;&lt;set _sec to Math.trunc(_seconds % 60) &gt;&gt;
-            &lt;&lt;if String(_sec).length lt 2&gt;&gt;
-                &lt;&lt;set _sec to &quot;0&quot; + String(_sec) &gt;&gt;
-            &lt;&lt;/if&gt;&gt;
-			&lt;&lt;replace &quot;#countdown&quot;&gt;&gt;&lt;b&gt;Countdown&lt;/b&gt;&amp;nbsp;_min:_sec remaining!&lt;&lt;/replace&gt;&gt;
-		&lt;&lt;else&gt;&gt;
-			&lt;&lt;replace &quot;#countdown&quot;&gt;&gt;Times up!&lt;&lt;/replace&gt;&gt;
-			&lt;&lt;stop&gt;&gt;
-		&lt;&lt;/if&gt;&gt;
-	&lt;&lt;/repeat&gt;&gt;
-&lt;&lt;/silently&gt;&gt;
-
-&lt;&lt;next 1501s&gt;&gt;
 &lt;p&gt;Now, share your evaluation with the other households [[after your kitchen table discussion.|LunchtimeReports]]&lt;/p&gt;
 
 &lt;&lt;/timed&gt;&gt;
@@ -4670,6 +4647,7 @@ p&gt;To answer these questions, evaluate the information you have and determine 
 &lt;p class=&quot;fade-text&quot;&gt;Household members: continue to build your understanding of the impact and implications of the most recent bombings. This time, use the Manchester city map to visualize some of the new information that you now have.&lt;/p&gt;
 
 &lt;&lt;timed 3s t8n&gt;&gt;
+
 &lt;p&gt;Evaluate the new information that you have to build your understanding of the impact and implications of the most recent bombings.&lt;/p&gt;
 
 &lt;&lt;next 2s&gt;&gt;
@@ -5076,7 +5054,7 @@ Select your household.
 &lt;&lt;/timed&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="25" name="SelectHousehold2" tags="" position="600,350" size="100,100">&lt;&lt;audio &quot;fire&quot; volume 0.75 fadeout&gt;&gt;
 &lt;h1 class=&quot;fade-text&quot; style=&quot;text-align:center;&quot;&gt;Round 2&lt;/h1&gt;
-Select any of these households.
+Select your household.
 
 [[Gamemaster&#39;s Clock|Gamemaster2]]
 
