@@ -3,7 +3,7 @@
     "ifid": "7BB31A4A-9E10-48D9-A1CD-448A7E567A59",
     "format": "SugarCube",
     "format-version": "2.36.1",
-    "start": "Start"
+    "start": "LunchtimeReports"
 }
 
 :: StoryInit
@@ -20,8 +20,9 @@
 <<cacheaudio "streetcar-station" "./assets/audio/streetcar-station.mp3">>
 <<cacheaudio "pigeon-coo" "./assets/audio/pigeon-coo.mp3">>
 <<cacheaudio "westminster" "./assets/audio/westminster.mp3">>
-
-
+<<cacheaudio "clock-tick" "./assets/audio/clock-tick.mp3">>
+<<cacheaudio "air-raid" "./assets/audio/air-raid-siren.mp3">>
+<<cacheaudio "fire-engine" "./assets/audio/fire-engine.mp3">>
 
 :: StoryTitle
 Do we take shelter?
@@ -42,14 +43,19 @@ Do we take shelter?
 </div>
 
 <div class="fade-text opening-link hidden-link">
-[[Proceed to Manchester, England during the Christmas blitz of 1940.|StartGame]]
+[[Proceed to Manchester England, morning of December 23, 1940|StartGame]]
 </div>
 
 :: StartGame
 <<set _vapour to [7, 12, 3, 16, 8, 14, 1, 9, 17, 5, 11, 15, 4, 6, 18, 2, 13, 10, 19]>>
+<div class="clock-container">
+    <img class="clock" src="./assets/images/clock.svg"/>
+</div>
 <<nobr>>
 <<audio "kettle" volume 0 fadeoverto 30 0.75>>
+<<audio "clock-tick" volume 0.15 loop play>>
 
+<div style="padding: 115px 0;">
 <<type 90ms>>\
 <span class="typewriter">7:30 a.m. on Monday, December 22, 1940.</span>
 \<</type>>
@@ -63,6 +69,7 @@ Do we take shelter?
 <<next 5s>>
 <p>Before the next blackout at sunset tonight, you have to [[gather more information|BackgroundKnowledge]] about the air raids and the damage that has been done to your city and neighbourhood.</p>
 <</timed>>
+</div>
 
 <div class="teacup-container">
     <div class="vapour">
@@ -77,24 +84,30 @@ Do we take shelter?
 
 :: BackgroundKnowledge
 <<audio "kettle" volume 0.75 fadeout>>
+<<audio "clock-tick" volume 0.15 fadeout>>
 <<nobr>>
 <p class="fade-text">In addition to your background knowledge of the war, you also know that:</p>
 <ul>
     <<timed 3s t8n>>
     <li>At 6:38 p.m. on Sunday, December 22, the air raid sirens rang out.</li>
+    <<audio "air-raid" volume 0 fadeoverto 10 0.75>>
     <<next>>
     <li>The German air force dropped their bombs in “waves and waves”, sometimes a dozen at a time.</li>
     <<next>>
     <li>The bombs targeted central Manchester, including Manchester Cathedral, only 2.5 kilometres south of your home.</li>
+    <div class="firetruck-container">
+        <img style="width:500px;" src="./assets/images/firetruck.svg"/>
+    </div>
     <<next>>
     <li>You can smell smoke and the sky is lit up from the fires burning in the city.</li>
+    <<audio "fire-engine" volume 0 fadeoverto 10 0.55>>
     <<next>>
     <li>The Manchester fire brigade is depleted because many men and trucks were sent to Liverpool the day before when the bombs fell on that city.</li>
     <</timed>>
 </ul>
 
 <<timed 17s t8n>>
-<p>Ultimately, you must decide what to do over the next eight hours: assess the information that you already have and gather new information as best you can.</p>
+<p>You must decide what to do over the next eight hours: assess the information that you have and gather new information as best you can.</p>
 
 <p>The stakes are high. [[You want your family to be safe.|SelectHousehold1]]</p>
 <</timed>>
@@ -102,6 +115,7 @@ Do we take shelter?
 <</nobr>>
 
 :: SelectHousehold1
+<<audio "air-raid" volume 0.75 fadeout>>
 <h1 class="fade-text" style="text-align:center;">Round 1</h1>
 
 [[Gamemaster's clock|Gamemaster1]]
@@ -115,6 +129,10 @@ Select your household.
 [[Household 5: The Baileys|Baileys1]]
 
 [[Community Members|Community1]]
+
+<div class="household-page">
+  <img style="width:450px;" src="./assets/images/parachute.svg">
+</div>
 
 :: LunchtimeReports
 <<nobr>>
@@ -143,21 +161,21 @@ Select your household.
 <<timed 5s t8n>>
 <p>Some household members have gone to their workplaces to gather more information and check in on their fellow employees.</p>
 
-<p>Work is virtually impossible and so they have returned home for lunch. </p>
+<<next>>
+<p>Work is virtually impossible so they have returned home for lunch.</p>
 
-<p>Overall, everyone knows (or suspects) that Central Manchester is devastated– the Luftwaffe bombing raid has destroyed buildings, roads, and transportation infrastructure including railway lines.</p>
+<<next>>
+<p>And community members are on the move, visiting households in your neighbourhood to share information.</p>
+
+<<next>>
+<p>Everyone knows (or suspects) that Central Manchester is devastated– the Luftwaffe bombing raid has destroyed buildings, roads, and transportation infrastructure including railway lines.
+And everywhere, there is fire, fire, fire.</p>
 
 <<next 2s>>
 <p>And everywhere, there is @@color:orange;fire, fire, fire.@@</p>
 
 <<next 7s>>
-<p>While each household may have these basic facts, they each have information that others may not have.</p>
-
-<p>Now, those who have returned from work will all share the new information that they have with their household to try and build a better understanding of the actual impact of the bombings and the implications of this new information for your ultimate decision.</p>
-
-<<next 5s>>
-
-<p>More tea has been brewed [[to accompany your lunch.|SelectHousehold2]]</p>
+<p>More tea has been brewed to accompany your lunch, and [[new information will be shared.|SelectHousehold2]]</p>
 
 <</timed>>
 <</nobr>>
@@ -177,21 +195,48 @@ Select your household.
 
 [[Community Members|Community2]]
 
+<div class="household-page-form">
+  <img style="width:350px;" src="./assets/images/form.svg">
+</div>
+
 :: ConclusionRounds1and2
-<<audio "game-theme" volume 0.75 fadeout>>
 <<nobr>>
-<p class="fade-text">You have now finished Rounds 1 and 2.</p>
+<<audio "game-theme" volume 0.75 fadeout>>
+<p id="panel1" class="fade-text" style="padding-top:55px;font-size:23px;text-align:center;">You have now finished Rounds 1 and 2, and you have more primary information about what is happening in your city.</p>
 
 <<timed 2s t8n>>
-<p> You have gathered more information about what is happening in your city and you have evaluated this information for currency, authority, truthfulness and bias.</p>
+<p id="panel1-2" style="font-size:17px;text-align:center;">But can you make a decision about where to take shelter?</p>
 
 <<next 2s>>
-<p> When we reconvene, you will be able to gather even more information.</p>
-
-<<next 2s>>
-<p>Ultimately, you must decide what to do when the blackout again takes effect: assess the information that you already have and gather new information as best you can.</p>
-
-<p>The stakes are high.</p>
+<div id="link1" onclick="$('#panel1').toggle(); $('#panel1-2').toggle(); $('#link1').toggle(); $('#panel2').toggle();" style="position:absolute;left:0;bottom:-15px;">
+    <img class="tower-backlight" src="./assets/images/airraid-shelter.svg"/>
+</div>
 <</timed>>
-
+<div class="fade-text" id="panel2" style="display: none;">
+    <div class="fade-text notepad-container">
+        <div class="notepad">
+            <div class="top">
+                <div style="display:flex;align-items:center;justify-content:end;height:100%;">
+                    <img class="megaphone-backlight" src="./assets/images/megaphone.svg" onclick="document.getElementById('recording3').play();"/>
+                    <audio id="recording3" src="./assets/audio/r2p8.mp3"></audio>
+                </div>
+            </div>
+            <div class="paper-container">
+                <div class="paper">
+                    What a morning! There is so much devastation and chaos in your city.<br>
+                    <br>
+                    But now you have more information than when you started about the damage and potential threats in the air.<br>
+                    <br>
+                    Some evidence has come from people you trust: but are all witness authoritative? And do you believe your own point of view is trustworthy?<br>
+                    <br>
+                    In Rounds 3 and 4, you will gather even more information to make your ultimate decision. What will you do when the blackout hour arrives: you stay home or go to the community shelter?<br>
+                    <br>
+                    Remember: The stakes are high. Don’t be fooled by bad information.<br>
+                    <br>
+                    Be alert and think critically.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <</nobr>>

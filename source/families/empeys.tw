@@ -1,82 +1,82 @@
 :: Empeys1
-
 <<nobr>>
+<p id="panel1" class="fade-text" style="font-size:1.5em;text-align:center;padding-top:75px;padding-bottom:55px;"><b>Moderators, household and community members:</b> read your instructions in the gamer handbook and listen to the latest reporting from Radio MAB.</p>
 
-<p class="fade-text">Rita Maloney: You are the moderator for your household. Use the available sources to guide the discussion of the information you have about the war with Germany.</p>
-
-<p class="fade-text">Household members: You need to answer the following questions:</p>
-
-<<timed 2s t8n>>
-<ul>
-    <li>Will there be another bombardment and, if so, when?</li>
-    <li>Should you move back to the community air raid shelter or stay in your own home another night?</li>
-</ul>
-
-<<next 2s>>
-<p>To answer these questions, evaluate the information you currently have about the war and determine if it is:
-<ul>
-    <li>current</li>
-    <li>authoritative</li>
-    <li>truthful, which includes being accurate<li>
-</ul
-<<next 2s>>
-<p>Use the Warden's Report Form and the War Report Form to record your findings.<p>
-
-<<next 2s>>
-<p>Assess the bias or biases that this information might reflect. Identify any additional information you might need and gather such as:</p>
-<ul>
-    <li>What is the Luftwaffe strategy for bombing English cities?</li>
-    <li>How many British people have been injured or died so far during the war?</li>
-    <li>What air raid precautions were in place in Britain during the war?</li>
-</ul>
-
-<<next 2s>>
-<p>What do you do next?</p>
-
-<<next 2s>>
-<p>The game master will signal the end of Round 1. Share your evaluation with the other households [[after your kitchen table discussion.|LunchtimeReports]]</p>
-
-<</timed>>
+<div id="link1" style="display:flex;height:100vh;justify-content:center;align-self:flex-end;" onclick="$('#panel1').toggle(); $('#link1').toggle(); $('#panel2').toggle();">
+    <img class="tower-backlight" src="./assets/images/manchester-radio-tower.svg"/>
+</div>
+<div class="fade-text" id="panel2" style="display: none;">
+    <div class="fade-text notepad-container">
+        <div class="notepad">
+            <div class="top">
+                <div style="display:flex;align-items:center;justify-content:end;height:100%;">
+                    <img class="megaphone-backlight" src="./assets/images/megaphone.svg" onclick="document.getElementById('recording1').play();"/>
+                    <audio id="recording1" src="./assets/audio/r1p5.mp3"></audio>
+                </div>
+            </div>
+            <div class="paper-container">
+                <div class="paper">
+                    Welcome to "Do we take shelter?" on Radio MAB, bringing you up-to-date reports on “high stakes” information for each round of game play.<br>
+                    <br>
+                    In Round One, you must ask these questions:<br>
+                    &ensp;&ensp;- Will there be another bombardment and, if so, when?<br>
+                    &ensp;&ensp;- Should you move back to the community shelter or stay in your own home another night?<br>
+                    &ensp;&ensp;- You already have some knowledge of the war. You must evaluate and record this evidence carefully! Who and what do you trust and why?<br>
+                    <br>
+                    Remember:<br>
+                    &ensp;&ensp;- Not everyone is an authority.<br>
+                    &ensp;&ensp;- Be on guard for misinformation and disinformation–even from people you know and like.<br>
+                    <br>
+                    What do you do next?<br>
+                    <br>
+                    The game master will signal the end of Round 1.<br>
+                    Be ready to share your evaluation with the other households after your kitchen table discussion.<br>
+                    <br>
+                    <p class="paper-end">[[Keep calm.|LunchtimeReports]]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <</nobr>>
 
 :: Empeys2
 <<nobr>>
-<<audio "streetcar-station" volume 0 fadeoverto 7 0.55>>
+<p id="panel1" class="fade-text" style="font-size:1.5em;text-align:center;padding-top:75px;padding-bottom:45px;"><b>Moderators, household and community members:</b> read your instructions in the gamer handbook carefully. Listen to more reporting from Radio MAB. The clock is ticking.</p>
 
-<p class="fade-text">Rita Maloney: You are the moderator for your household. You are the moderator for your household. Use the new sources your household has to guide the discussion.</p>
-
-<p class="fade-text">Household members: continue to build your understanding of the impact and implications of the most recent bombings. This time, use the Manchester city map to visualize some of the new information that you now have.</p>
-
-<<timed 3s t8n>>
-<p>Evaluate the new information that you have to build your understanding of the impact and implications of the most recent bombings.</p>
-
-<<next 2s>>
-<p>Determine the facts that you have about what has happened in your city:</p>
-
-<ul>
-    <li>What do you now know?</li>
-        <ul>
-            <li>Where have the bombs fallen?</li>
-            <li>How many people are injured or dead?</li>
-            <li>Are communication and transportation systems disrupted?</li>
-            <li>What are the conditions in the community shelter?</li>
-            <li>Can you buy food (with ration coupons) and other supplies?</li>
-            <li>Where will you go if your home is badly damaged?</li>
-        </ul>
-    <li>Based on this information, what is the threat of another bombing today?</li>
-    <li>Do you need more information? If so, what information do you need?</li>
-</ul>
-
-<<next 2s>>
-<p>What do you do next?</p>
-
-<<next 2s>>
-<p>Use the criteria of authority, currency, truthfulness, and bias to evaluate the additional information that you have. Use the Manchester city map to visualize this information to better see what is happening.<p>
-
-<p>Use the Warden’s Report Form/War Report Form to record your findings.</p>
-
-<<next 2s>>
-<p>The game master will signal the end of Round 2. Be ready to analyze and discuss and [[share with the other households what you know (and don’t know).|ConclusionRounds1and2]]</p>
-
-<</timed>>
+<div id="link1" style="display:flex;height:100vh;justify-content:center;align-self:flex-end;" onclick="$('#panel1').toggle(); $('#link1').toggle(); $('#panel2').toggle();">
+    <img class="tower-backlight" src="./assets/images/manchester-radio-tower.svg"/>
+</div>
+<div class="fade-text" id="panel2" style="display: none;">
+    <div class="fade-text notepad-container">
+        <div class="notepad">
+            <div class="top">
+                <div style="display:flex;align-items:center;justify-content:end;height:100%;">
+                    <img class="megaphone-backlight" src="./assets/images/megaphone.svg" onclick="document.getElementById('recording2').play();"/>
+                    <audio id="recording2" src="./assets/audio/r2p7.mp3"></audio>
+                </div>
+            </div>
+            <div class="paper-container">
+                <div class="paper">
+                    Here is your lunchtime “high stakes” update from "Do we take shelter?" on Radio MAB.<br>
+                    <br>
+                    In Round Two, you have new information from two eyewitnesses.<br>
+                    <br>
+                    You must decide if you trust this primary, first-hand evidence. Think carefully:<br>
+                    &ensp;&ensp;- What have the eyewitnesses seen?<br>
+                    &ensp;&ensp;- Who have they talked to?<br>
+                    &ensp;&ensp;- Can they give you solid facts to help you decide what to do?<br>
+                    &ensp;&ensp;- Do you trust the information they offer?<br>
+                    <br>
+                    Be on guard: your own bias will influence what you believe to be true and what you believe to be false. Can you trust yourself to think clearly in this situation?<br>
+                    <br>
+                    The game master will signal the end of Round 2.<br>
+                    Be ready to share your evaluation with the other households after your kitchen table discussion.<br>
+                    <br>
+                    <p class="paper-end">[[Carry on.|ConclusionRounds1and2]]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <</nobr>>
